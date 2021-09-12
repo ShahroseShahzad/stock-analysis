@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose 
- The purpose of this project was to facilitate Steves ability to perform analysis on a on a large data set over a period of 2 years (2017 & 2018).This was achieved by refactor a Microsoft Excel VBA code to collect certain stock information and determine whether or not the stocks are worth investing. Originally we wrote a code in similar format, however, the goal for this round was to increase the efficiency of the original code.
+ The purpose of this project is to facilitate Steve's ability to perform analysis on a on a large data set over a period of 2 years (2017 & 2018).This was achieved by refactor a Microsoft Excel VBA code to collect certain stock information and determine whether or not the stocks are worth investing. Originally we wrote a code in similar format, however, the goal for this round was to increase the efficiency of the original code.
  
 ### Results
 
@@ -431,7 +431,7 @@ By refactoring the code I was able to reduce my Macro Run Time for both 2017 as 
 
 ## Summary
 
-### Advantages and Disadvantages of refactoring code 
+### Advantages and Disadvantages of Refactoring Code 
 Refactoring helps us to improve the internal structure of an existing source code, while maintaining its external behavior. 
 
 Refactoring has many advantages that helps to make our code more organized and save time. 
@@ -441,7 +441,7 @@ Once refactoring has taken place, the code easier to understand and read, as wel
 However, refactoring does have a few disadvantages. It can be a very time-consuming process and should not be done close to a deadline. The cost of refactoring is a lot higher than if the code was written from scratch. If you do not test the refactoring code and have enough time to fix it, it can introduce bugs causing more delays.
 
 
-### Advantages and Disadvantages of refactoring code in Original VS Refactored Script
+### Advantages and Disadvantages of Refactoring Code in Original VS Refactored Script
 One if the advantages of refactoring for me was a decrease in macro run time. The original analysis took approximately 0.156seconds whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. Attached below are the screenshots that indicate the run time for our new analysis.
 
 
