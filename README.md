@@ -10,7 +10,7 @@
 Below is a comparison of stock analysis for 2017 and 2018. The "Total Daily Volume", is summed over the course of the year. In the "Return" column, the stock's price at the end of the year is divided by the price at the beginning of the year, and converted to show percentage growth or loss. This shows how much return on investment a stock in a given corporation will provide the owner, with positive values marked ‘Green’ indicating increased value and negative values marked ‘Red” indicating losses.
 
 With the help of conditional formatting we can see the differences between stock performance in 2017 and 2018 for the selected companies to be displayed easily and clearly. In 2017, only one ticker TERP shows a negative return of -7.21%. In 2018 most of the selected tickers showed a negative return. 
-DQ did exceptionally well in 2017 with a 199.45% return however it dropped to almost -62.26. 
+DQ did exceptionally well in 2017 with a 199.45% return however it dropped to almost -62.26%. 
 
 #### Stock Analysis 2017
 ![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/Stock%202017.png)
