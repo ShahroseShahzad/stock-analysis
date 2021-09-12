@@ -7,14 +7,16 @@
 ### Results
 Before refactoring the code, I began by copying the code that was needed to create the input box, chart headers, ticker array, and to activate the appropriate worksheet. The steps were then listed out in order to set the structure for the refactoring. Below is the instruction and code as written in the file.
 
+#### Original Run time 2017
 ![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/Original%202017.png)
 
-
+#### Refactored Run time 2017
 ![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
-
+#### Original Run time 2018
 ![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/Original%202018.png)
 
+#### Refactored Run time 2018
 ![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 ## Summary
