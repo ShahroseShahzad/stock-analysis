@@ -442,9 +442,7 @@ However, refactoring does have a few disadvantages. It can be a very time-consum
 
 
 ### Advantages and Disadvantages of Refactoring Code in Original VS Refactored Script
-One if the advantages of refactoring for me was a decrease in macro run time. The original analysis took approximately 0.156seconds whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. Attached below are the screenshots that indicate the run time for our new analysis.
+An advantage for refactoring code for me was ablility to save the Macro Run time for both years and my code looks neat.
 
+A disadvange for me was that it was a long process of writing the original code and then refactoring it. Althoguh I was able to save Macro Run time. I would have saved a lot of time if I used to efficient code to begin with.
 
-![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
-
-![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
