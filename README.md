@@ -3,9 +3,30 @@
 ## Overview of Project
 
 ### Purpose 
- The purpose of this project was to refactor a Microsoft Excel VBA code to collect certain stock information in the year 2017 and 2018 and determine whether or not the stocks are worth investing. This process was originally completed in a similar format, however, the goal for this round was to increase the efficiency of the original code.
+ The purpose of this project was to facilitate Steves ability to perform analysis on a on a large data set over a period of 2 years (2017 & 2018).This was achieved by refactor a Microsoft Excel VBA code to collect certain stock information and determine whether or not the stocks are worth investing. Originally we wrote a code in similar format, however, the goal for this round was to increase the efficiency of the original code.
+ 
 ### Results
-Before refactoring the code, I began by copying the code that was needed to create the input box, chart headers, ticker array, and to activate the appropriate worksheet. The steps were then listed out in order to set the structure for the refactoring. Below is the instruction and code as written in the file.
+
+Below is a comparison of stock analysis for 2017 and 2018. The "Total Daily Volume", is summed over the course of the year. In the "Return" column, the stock's price at the end of the year is divided by the price at the beginning of the year, and converted to show percentage growth or loss. This shows how much return on investment a stock in a given corporation will provide the owner, with positive values marked ‘Green’ indicating increased value and negative values marked ‘Red” indicating losses.
+
+With the help of conditional formatting we can see the differences between stock performance in 2017 and 2018 for the selected companies to be displayed easily and clearly. In 2017, only one ticker TERP shows a negative return of -7.21%. In 2018 most of the selected tickers showed a negative return. 
+DQ did exceptionally well in 2017 with a 199.45% return however it dropped to almost -62.26. 
+
+#### Stock Analysis 2017
+![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/Stock%202017.png)
+
+#### Stock Analysis 2018
+![This is an image](https://github.com/ShahroseShahzad/stock-analysis/blob/main/Resources/Stock%202018.png)
+
+Code refactoring was a major part of this project. 
+In order to improve the efficiency of my code, I created 3 new arrays: -tickerVolumes(12) to hold volume -tickerStartingPrices(12) to hold starting price -tickerEndingPrices(12) to hold ending price
+
+In these arrays performance data was stored for each stock when a for loop runs Macro analysis on them. In the original code the tickers array establishes a ticker symbol that can be called on for each stock.
+Matching the 3 performance arrays with the ticker array is done by using a variable called the tickerIndex. and setting the tricker index to 0.
+
+After creating the arrays I used Nested For Loops and variables to loop through the data and complete the analysis.
+An example of the Refactored Vs Original code is shown below:
+
 
 #### Refactored Code
 ```
@@ -156,7 +177,7 @@ End Sub
 
 ```
 ```
-####Original Code 
+#### Original Code 
 
 Sub Macrocheck()
 
