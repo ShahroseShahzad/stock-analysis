@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose 
- The purpose of this project is to facilitate Steve's ability to perform analysis on a on a large data set over a period of 2 years (2017 & 2018).This was achieved by refactor a Microsoft Excel VBA code to collect certain stock information and determine whether or not the stocks are worth investing. Originally we wrote a code in similar format, however, the goal for this round was to increase the efficiency of the original code.
+ The purpose of this project is to facilitate Steve's ability to perform analysis on a on a large data set over a period of 2 years (2017 & 2018).This was achieved by refactor a Microsoft Excel VBA code to collect certain stock information and determine whether or not the stocks are worth investing. Originally we wrote a code in a similar format, however, the goal for this project was to increase the efficiency of the original code by refactoring code.
  
 ### Results
 
